@@ -57,8 +57,46 @@ nav ul li {
     color: #E5E7EB;
 }
 
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
 .hero-right {
     width: 500px;
     height: auto;
     padding: 48px;
+}
+
+/* Information CSS */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.tile-set {
+    display: flex;
+}
+
+.tile-set img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    font-size: 18px;
 }
