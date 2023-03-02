@@ -90,7 +90,7 @@ nav ul li {
 }
 
 .tile-set img {
-    width: 150px;
+    width: 15vw;
     border-radius: 8px;
 }
 
@@ -136,7 +136,7 @@ nav ul li {
 
 .sign-up-block {
     background-color: #3882F6;
-    width: 70vw;
+    width: 50vw;
     color: white;
     display: flex;
     justify-content: space-around;
