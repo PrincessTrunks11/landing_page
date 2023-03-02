@@ -62,6 +62,7 @@ nav ul li {
     color: white;
     border-radius: 4px;
     padding: 4px 8px;
+    border-style: none;
 }
 
 .hero-right {
@@ -122,4 +123,50 @@ nav ul li {
     font-weight: bold;
     align-self: flex-end;
     padding: 0 20vw;
+}
+
+/* Style Sign-up */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.sign-up-block {
+    background-color: #3882F6;
+    width: 70vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.sign-up-content {
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.sign-up-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-content p {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-block .sign-up-button {
+    margin: 48px;
+    padding: 6px 12px;
+    border-color: white;
+    border-style: solid;
 }
